@@ -1,0 +1,16 @@
+columns:
+  car_name: category 
+  vehicle_age: int
+  km_driven: int
+  seller_type: category
+  fuel_type: category
+  transmission_type: category
+  mileage: float
+  engine: int
+  max_power: float
+  seats: int
+  selling_price: int
+  
+drop_columns:
+  - brand
+  - model

@@ -23,4 +23,5 @@ jinja2
 python-multipart
 python-dotenv
 google-cloud-storage
+pymongo
 -e .
