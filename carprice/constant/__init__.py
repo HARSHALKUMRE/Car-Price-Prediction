@@ -13,6 +13,8 @@ COLLECTION_NAME = "car"
 FILE_NAME: str = "car.csv"
 TRAIN_FILE_NAME: str = "train.csv"
 TEST_FILE_NAME: str = "test.csv"
+PREROCESSING_OBEJCT_FILE_NAME = "preprocessing.pkl"
+TARGET_COLUMN = "selling_price"
 
 BUCKET_NAME = "carprice-2024"
 
@@ -37,3 +39,10 @@ DATA_VALIDATION_INVALID_DIR: str = "invalid"
 DATA_VALIDATION_DRIFT_REPORT_DIR: str = "drift_report"
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "report.yaml"
 DATA_VALIDATION_DRIFT_REPORT_PAGE_FILE_NAME: str = "report.html"
+
+"""
+Data Transformation related constants start with DATA_TRANSFORMATION VAR NAME
+"""
+DATA_TRANSFORMATION_DIR_NAME: str = "data_transfromation"
+DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR: str = "transformed"
+DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR: str = "transformed_object"

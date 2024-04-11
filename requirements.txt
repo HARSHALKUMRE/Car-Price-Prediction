@@ -24,4 +24,5 @@ python-multipart
 python-dotenv
 google-cloud-storage
 pymongo
+category-encoders
 -e .
